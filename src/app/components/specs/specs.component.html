@@ -1,0 +1,7 @@
+<app-add-spec (onAddSpec)="addSpec($event)"></app-add-spec>
+<app-spec-item
+  *ngFor="let spec of specs"
+  [spec]="spec"
+  (onDeleteSpec)="deleteSpec(spec)"
+  (onToggleReminder)="toggleReminder(spec)"
+></app-spec-item>

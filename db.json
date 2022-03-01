@@ -1,0 +1,44 @@
+{
+  "specs": [
+    {
+      "id": 2,
+      "project_title": "Project Specs Page",
+      "details": "Design the perfect template in which you would like to receive the specifications of a new IT project you are in charge of.",
+      "deadline": "26/02/2022",
+      "tech_stack": "Typescript, HTML, CSS",
+      "developers": 1,
+      "role": "Front-end",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "project_title": "Frontend to the Backend",
+      "details": "Build a backend NodeJS server for persisting the feedback to Postgresql.",
+      "deadline": "28/02/2022",
+      "tech_stack": "NodeJS, Postgresql, Angular",
+      "developers": 5,
+      "role": "Backend",
+      "reminder": false
+    },
+    {
+      "project_title": "Database Build",
+      "deadline": "2022/02/28",
+      "details": "A database is an organized collection of structured information, or data, typically stored electronically in a computer system.",
+      "tech_stack": "PostgreSQL",
+      "developers": "3",
+      "role": "Database Admin",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "project_title": "e-commerce react app",
+      "deadline": "2022/03/28",
+      "details": "Build an e-commerce frontend with React. You will be in charge of all fronted related activities.",
+      "tech_stack": "React, PostgreSQL, HTML, CSS, NodeJS",
+      "developers": "5",
+      "role": "Fronted Tech Lead",
+      "reminder": true,
+      "id": 5
+    }
+  ]
+}

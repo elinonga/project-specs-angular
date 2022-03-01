@@ -1,0 +1,20 @@
+<div
+[ngClass]="{ reminder: spec.reminder }"
+  class="spec"
+  (dblclick)="onToggle(spec)"
+>
+  <h3>
+    {{ spec.project_title }}
+    <fa-icon
+      (click)="onDelete(spec)"
+      [ngStyle]="{ color: 'red' }"
+      [icon]="faTimes"
+    ></fa-icon>
+  </h3>
+  <p class="details">{{ spec.details }}</p>
+  <p><strong>Your Role:</strong> {{ spec.role }}</p>
+  <p><strong># of developers in this project:</strong> {{ spec.developers }}</p>
+  <p><strong>Tech stacks used:</strong> {{ spec.tech_stack }}</p>
+  <p><strong>Project Deadline:</strong> {{ spec.deadline }}</p>
+  
+</div>

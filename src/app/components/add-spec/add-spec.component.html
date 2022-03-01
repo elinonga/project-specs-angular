@@ -1,0 +1,72 @@
+<form *ngIf="showAddSpec" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+      <label for="text">Project Title</label>
+      <input
+        type="text"
+        name="project_title"
+        [(ngModel)]="project_title"
+        id="project_title"
+        placeholder="Add Spec"
+      />
+    </div>
+    <div class="form-control">
+      <label for="day">Project Deadline Day</label>
+      <input
+        type="text"
+        name="deadline"
+        [(ngModel)]="deadline"
+        id="deadline"
+        placeholder="Add Deadline Day"
+      />
+    </div>
+    <div class="form-control">
+        <label for="day">Project Details</label>
+        <input
+          type="text"
+          name="details"
+          [(ngModel)]="details"
+          id="details"
+          placeholder="Add more details for the project"
+        />
+      </div>
+      <div class="form-control">
+        <label for="day">Technologies to be used</label>
+        <input
+          type="text"
+          name="tech_stack"
+          [(ngModel)]="tech_stack"
+          id="tech_stack"
+          placeholder="Add Tech Stacks for this Project"
+        />
+      </div>
+      <div class="form-control">
+        <label for="day">Developers involved</label>
+        <input
+          type="text"
+          name="developers"
+          [(ngModel)]="developers"
+          id="developers"
+          placeholder="How many Devs involved?"
+        />
+      </div>
+      <div class="form-control">
+        <label for="day">Role</label>
+        <input
+          type="text"
+          name="role"
+          [(ngModel)]="role"
+          id="role"
+          placeholder="Add Role"
+        />
+      </div>
+    <div class="form-control form-control-check">
+      <label for="reminder">Tech Lead?</label>
+      <input
+        type="checkbox"
+        name="reminder"
+        [(ngModel)]="reminder"
+        id="reminder"
+      />
+    </div>
+    <input type="submit" value="Save Spec" class="btn btn-block" />
+  </form>
